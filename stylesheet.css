@@ -23,8 +23,9 @@
 	padding: 10px 0;
 }
 
-#dash.vertical-overview .app-well-app-running-dot {
+.app-well-app-running-dot {
 	margin: 6px 0px;
+	width: 12px;
 }
 
 /* 40 style dash */
