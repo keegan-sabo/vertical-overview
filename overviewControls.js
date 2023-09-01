@@ -277,6 +277,9 @@ var ControlsManagerLayoutOverride = {
 
                 appDisplayBox = initialBox.interpolate(finalBox, transitionParams.progress);
             }
+            // Hide arrows
+            this._appDisplay._prevPageArrow.scale_x = 0;
+            this._appDisplay._nextPageArrow.scale_x = 0;
 
             this._appDisplay.allocate(appDisplayBox);
         }
